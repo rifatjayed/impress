@@ -13,7 +13,9 @@ padding: 40px 20px;
    
 }
 h1, h2{
-    font-size: 55px;
+    color: #CD0404;
+    font-size: 75px;
+    font-weight: 700;
     padding: 0 15px;
 }
 .lomba{
@@ -23,9 +25,14 @@ h1, h2{
     display: none;
 }
 .proposed, .proposed-no{
-    background-color: #F56EB3;
+    /* background-color: #F56EB3; */
+    background-image: url("img/abstract-seamless-heart-pattern-background-paper-vector-23399901.jpg");
     display: none;
 }
 .fa-heart, .fa-heart-crack{
     color: #FF0032;
+}
+
+.err-text{
+    display: none;
 }

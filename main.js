@@ -10,7 +10,7 @@ submitBtn.addEventListener('click', function (e) {
         
     }
     else {
-        console.log("jaaaw r ktha nai");
+        document.querySelector(".err-text").style.display = "block";
     }
     e.preventDefault()
 })
