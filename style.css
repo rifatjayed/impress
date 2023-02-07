@@ -14,6 +14,7 @@ padding: 40px 20px;
 }
 h1, h2{
     color: #CD0404;
+ 
     font-size: 75px;
     font-weight: 700;
     padding: 0 15px;
@@ -25,9 +26,20 @@ h1, h2{
     display: none;
 }
 .proposed, .proposed-no{
-    /* background-color: #F56EB3; */
-    background-image: url("img/abstract-seamless-heart-pattern-background-paper-vector-23399901.jpg");
+    background-color: black;
+    /* background-image: url("img/abstract-seamless-heart-pattern-background-paper-vector-23399901.jpg"); */
     display: none;
+}
+.custm-btn{
+    /* background-color: #CD0404; */
+    border: 2px solid red;
+    padding: 10px 30px;
+    color: red;
+    font-size: 30px;
+    font-weight: 500;
+}
+.custm-btn:hover{
+    color: red;
 }
 .fa-heart, .fa-heart-crack{
     color: #FF0032;
